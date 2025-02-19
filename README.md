@@ -27,6 +27,13 @@ The dataset contains various features such as:
 ✔️ **Latitude & Longitude**  
 ✔️ **House price per unit area (Target Variable)**  
 
+🛠 **Preprocessing Steps:**  
+- Handling missing values  
+- Encoding categorical variables  
+- Normalizing numerical features  
+
+---
+
 ## 🔥 Model Training Process  
 
 ### 📌 **Data Preprocessing:**  
@@ -52,22 +59,9 @@ The dataset contains various features such as:
 
 ---
 
-🛠 **Preprocessing Steps:**  
-- Handling missing values  
-- Encoding categorical variables  
-- Normalizing numerical features  
-
----
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/Sahana-S-Badiger/Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models.git
-cd Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models
 ## 🌍 Model Deployment using Django  
 1️⃣ **User enters property details via a web form**  
 2️⃣ **Pre-trained models predict the property value**  
 3️⃣ **Results are displayed on the webpage**  
 
 ---
-
-## 🛠 Installation and Setup  
