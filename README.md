@@ -58,3 +58,12 @@ The dataset contains various features such as:
 - Normalizing numerical features  
 
 ---
+
+## 🌍 Model Deployment using Django  
+1️⃣ **User enters property details via a web form**  
+2️⃣ **Pre-trained models predict the property value**  
+3️⃣ **Results are displayed on the webpage**  
+
+---
+
+## 🛠 Installation and Setup  
