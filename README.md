@@ -27,6 +27,31 @@ The dataset contains various features such as:
 ✔️ **Latitude & Longitude**  
 ✔️ **House price per unit area (Target Variable)**  
 
+## 🔥 Model Training Process  
+
+### 📌 **Data Preprocessing:**  
+✅ Handling missing values  
+✅ Encoding categorical variables  
+✅ Feature scaling  
+
+### 🏆 **Model Selection & Training:**  
+✅ **Random Forest Regressor**  
+✅ **Gradient Boosting Regressor**  
+✅ Hyperparameter tuning using **GridSearchCV**  
+
+### 📊 **Model Evaluation:**  
+✅ Mean Squared Error (**MSE**)  
+✅ Mean Absolute Error (**MAE**)  
+✅ R² Score  
+
+### 📈 **Visualization Techniques:**  
+✅ **Pair plots**  
+✅ **Correlation heatmaps**  
+✅ **Residual plots**  
+✅ **Model comparison graphs**  
+
+---
+
 🛠 **Preprocessing Steps:**  
 - Handling missing values  
 - Encoding categorical variables  
