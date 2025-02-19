@@ -59,6 +59,10 @@ The dataset contains various features such as:
 
 ---
 
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/Sahana-S-Badiger/Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models.git
+cd Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models
 ## 🌍 Model Deployment using Django  
 1️⃣ **User enters property details via a web form**  
 2️⃣ **Pre-trained models predict the property value**  
