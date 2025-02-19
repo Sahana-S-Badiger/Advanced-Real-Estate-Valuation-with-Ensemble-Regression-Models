@@ -81,3 +81,20 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver
 
+🔗 Open http://127.0.0.1:8000/ in your browser to access the web application.
+
+---
+
+💡 Usage
+1️⃣ Enter house details on the prediction page.
+2️⃣ Click "Predict" to get the estimated price.
+3️⃣ The results page displays the predicted value using trained ML models.
+
+---
+
+🔮 Future Enhancements
+☁️ Deploy model on cloud platforms (AWS, Heroku, or GCP)
+🧠 Use deep learning models for better accuracy
+🎨 Enhance UI/UX for a better user experience
+
+---
