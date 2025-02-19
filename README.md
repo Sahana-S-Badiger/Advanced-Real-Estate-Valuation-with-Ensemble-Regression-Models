@@ -19,3 +19,17 @@ We have implemented this project using **Google Colab** for model training and *
 
 ---
 
+## 📂 Dataset  
+The dataset contains various features such as:  
+✔️ **House age**  
+✔️ **Distance to the nearest MRT station**  
+✔️ **Number of convenience stores nearby**  
+✔️ **Latitude & Longitude**  
+✔️ **House price per unit area (Target Variable)**  
+
+🛠 **Preprocessing Steps:**  
+- Handling missing values  
+- Encoding categorical variables  
+- Normalizing numerical features  
+
+---
