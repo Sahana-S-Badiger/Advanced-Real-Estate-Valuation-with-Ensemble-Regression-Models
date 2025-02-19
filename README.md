@@ -72,14 +72,17 @@ The dataset contains various features such as:
 ```bash
 git clone https://github.com/Sahana-S-Badiger/Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models.git
 cd Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models
+```
 
 ### 2️⃣ Install Dependencies  
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3️⃣ Run Django Server
 ```bash
 python manage.py runserver
+```
 
 🔗 Open http://127.0.0.1:8000/ in your browser to access the web application.
 
