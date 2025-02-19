@@ -8,8 +8,7 @@ We have implemented this project using **Google Colab** for model training and *
 
 ---
 
-# Tech Stack Used  
-
+## 🚀 Tech Stack Used  
 - **🐍 Python** – for model training and evaluation  
 - **📊 Google Colab** – for dataset analysis and model development  
 - **🌐 Django** – for web framework and deployment  
@@ -17,4 +16,6 @@ We have implemented this project using **Google Colab** for model training and *
 - **📈 Pandas, NumPy** – for data manipulation  
 - **📉 Matplotlib, Seaborn** – for visualization  
 - **💾 Joblib** – for model saving/loading  
+
+---
 
