@@ -137,40 +137,4 @@
     }
   </style>
 </head>
-<body>
-  <!-- Background element -->
-  <div class="bg"></div>
-  <!-- Form container with glassmorphism effect -->
-  <div class="form-signin">
-    <h1>Predict House Price</h1>
-    {% if error %}
-      <p style="color:red;">{{ error }}</p>
-    {% endif %}
-    <form method="POST">
-      {% csrf_token %}
-      <label for="transaction_date">Transaction Date:</label>
-      <input type="number" name="transaction_date" id="transaction_date" value="{{ inputs.transaction_date|default:'' }}" step="0.01" required>
-      
-      <label for="house_age">House Age:</label>
-      <input type="number" name="house_age" id="house_age" value="{{ inputs.house_age|default:'' }}" step="0.01" required>
-      
-      <label for="distance_to_mrt">Distance to MRT:</label>
-      <input type="number" name="distance_to_mrt" id="distance_to_mrt" value="{{ inputs.distance_to_mrt|default:'' }}" step="0.01" required>
-      
-      <label for="convenience_stores">Convenience Stores:</label>
-      <input type="number" name="convenience_stores" id="convenience_stores" value="{{ inputs.convenience_stores|default:'' }}" required>
-      
-      <label for="latitude">Latitude:</label>
-      <input type="number" name="latitude" id="latitude" value="{{ inputs.latitude|default:'' }}" step="0.000001" required>
-      
-      <label for="longitude">Longitude:</label>
-      <input type="number" name="longitude" id="longitude" value="{{ inputs.longitude|default:'' }}" step="0.000001" required>
-      
-      <button type="submit">Predict</button>
-    </form>
-    <div class="copyright">
-      &copy; 2024 Real Estate Predictor. All Rights Reserved.
-    </div>
-  </div>
-</body>
-</html>
+
