@@ -65,3 +65,10 @@ The dataset contains various features such as:
 3️⃣ **Results are displayed on the webpage**  
 
 ---
+
+## 🛠 Installation and Setup  
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/Sahana-S-Badiger/Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models.git
+cd Advanced-Real-Estate-Valuation-with-Ensemble-Regression-Models
