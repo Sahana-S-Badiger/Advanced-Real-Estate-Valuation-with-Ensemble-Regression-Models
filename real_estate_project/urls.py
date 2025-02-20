@@ -24,4 +24,4 @@ urlpatterns = [
     path('predict/', views.predict_price, name='predict_price'),  # Predict page
 ]
 
-*in urls.py*
+
