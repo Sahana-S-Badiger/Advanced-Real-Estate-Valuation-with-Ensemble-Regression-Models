@@ -88,5 +88,46 @@ plt.bar(['Random Forest', 'Gradient Boosting'], [rf_r2, gb_r2], color=['blue', '
 plt.title('Model R² Comparison')
 plt.ylabel('R² Score')
 plt.show()
+# Step 8: Visualizing Model Performance
+# Compare R² scores of both models
+plt.figure(figsize=(10, 5))
+plt.bar(['Random Forest', 'Gradient Boosting'], [rf_r2, gb_r2], color=['blue', 'green'])
+plt.title('Model R² Comparison')
+plt.ylabel('R² Score')
+plt.show()
 
+# Step 9: Additional Data Visualizations
+# Pair Plot
+sns.pairplot(data)
+plt.suptitle("Pair Plot of the Dataset", y=1.02)
+plt.show()
+
+# Box Plot to detect outliers
+plt.figure(figsize=(12, 6))
+sns.boxplot(data=data)
+plt.title("Box Plot of the Dataset")
+plt.xticks(rotation=90)
+plt.show()
+
+# Correlation Heatmap
+plt.figure(figsize=(12, 8))
+correlation_matrix = data.corr()
+sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
+plt.title("Correlation Heatmap")
+plt.show()
+
+# Residual Plot for Random Forest
+residuals_rf = y_test - rf_predictions
+plt.figure(figsize=(10, 6))
+sns.residplot(x=rf_predictions, y=residuals_rf, lowess=True, color="blue")
+plt.title("Residual Plot (Random Forest)")
+plt.xlabel("Predicted Values")
+plt.ylabel("Residuals")
+plt.show()
+
+# Step 10: Save Trained Models
+joblib.dump(rf_model, 'rf_model.pkl')
+joblib.dump(gb_model, 'gb_model.pkl')
+
+print("\nModels saved as 'rf_model.pkl' and 'gb_model.pkl'")
 
