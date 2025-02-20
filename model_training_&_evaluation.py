@@ -70,6 +70,17 @@ print(f"RMSE: {rf_rmse}")
 print(f"MAE: {rf_mae}")
 print(f"R²: {rf_r2}")
 
+# Evaluate Gradient Boosting
+gb_predictions = gb_model.predict(X_test)
+gb_rmse = np.sqrt(mean_squared_error(y_test, gb_predictions))
+gb_mae = mean_absolute_error(y_test, gb_predictions)
+gb_r2 = r2_score(y_test, gb_predictions)
+
+print("\nGradient Boosting Results:")
+print(f"RMSE: {gb_rmse}")
+print(f"MAE: {gb_mae}")
+print(f"R²: {gb_r2}")
+
 
 # Step 8: Visualize Model Performance
 # Model Comparison Plot
