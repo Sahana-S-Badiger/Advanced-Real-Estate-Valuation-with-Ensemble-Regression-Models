@@ -1,4 +1,4 @@
-from django.db import 
+from django.db import models
 
 class HousePrediction(models.Model):
     transaction_date = models.FloatField()
