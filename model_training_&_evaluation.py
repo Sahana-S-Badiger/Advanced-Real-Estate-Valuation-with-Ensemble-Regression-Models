@@ -88,13 +88,6 @@ plt.bar(['Random Forest', 'Gradient Boosting'], [rf_r2, gb_r2], color=['blue', '
 plt.title('Model R² Comparison')
 plt.ylabel('R² Score')
 plt.show()
-# Step 8: Visualizing Model Performance
-# Compare R² scores of both models
-plt.figure(figsize=(10, 5))
-plt.bar(['Random Forest', 'Gradient Boosting'], [rf_r2, gb_r2], color=['blue', 'green'])
-plt.title('Model R² Comparison')
-plt.ylabel('R² Score')
-plt.show()
 
 # Step 9: Additional Data Visualizations
 # Pair Plot
