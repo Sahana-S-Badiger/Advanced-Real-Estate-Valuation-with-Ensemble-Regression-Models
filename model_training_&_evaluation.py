@@ -70,6 +70,19 @@ print(f"RMSE: {rf_rmse}")
 print(f"MAE: {rf_mae}")
 print(f"R²: {rf_r2}")
 
+# Evaluate Gradient Boosting using different approach
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+import numpy as np
+
+metrics = {
+    "RMSE": np.sqrt(mean_squared_error(y_test, gb_model.predict(X_test))),
+    "MAE": mean_absolute_error(y_test, gb_model.predict(X_test)),
+    "R²": r2_score(y_test, gb_model.predict(X_test))
+}
+
+print("\nGradient Boosting Results:")
+for metric, value in metrics.items():
+    print(f"{metric}: {value}")
 
 
 # Step 8: Visualize Model Performance
