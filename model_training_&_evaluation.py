@@ -127,5 +127,4 @@ joblib.dump(rf_model, 'rf_model.pkl')
 joblib.dump(gb_model, 'gb_model.pkl')
 
 print("\nModels saved as 'rf_model.pkl' and 'gb_model.pkl'")
-() print
 
